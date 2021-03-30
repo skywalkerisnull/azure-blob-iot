@@ -1,0 +1,9 @@
+version: "3.6"
+
+services:
+  blob-iot:
+    image: mcr.microsoft.com/azure-blob-storage
+    restart: always
+    env_file: deploy.env
+    ports:
+      - 11002:11002

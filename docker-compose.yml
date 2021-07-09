@@ -8,4 +8,4 @@ services:
     ports:
       - 11002:11002
     volumes:
-      - /srv/containerdata:blobroot
+      - /srv/containerdata:/blobroot

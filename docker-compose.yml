@@ -7,3 +7,5 @@ services:
     env_file: deploy.env
     ports:
       - 11002:11002
+    volumes:
+      - /srv/containerdata:blobroot
